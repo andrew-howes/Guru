@@ -23,11 +23,11 @@ public class Guru {
 		nextMatch = 0;
 		allPicks = new ArrayList<String[]>();
 		try {
-	        File file = new File(args[0]);
+	        File inFile = new File(args[0]);
 	        
 	        neighbors = new File("neighbors.txt");
 	        
-	        BufferedReader in = new BufferedReader(new FileReader(file));
+	        BufferedReader in = new BufferedReader(new FileReader(inFile));
 	        String line;
 	        ArrayList<String> players = new ArrayList<String>();
 	        int count = 0;
@@ -53,6 +53,54 @@ public class Guru {
 	    }
 		scores = calculateScores(results);
 		outputClosestBrackets();
+		checkNext();
+	}
+	
+	public static void checkNext()
+	{
+		String[] possibles = getPossibles(nextMatch);
+		for(String poss : possibles)
+		{
+			possibleResults[nextMatch] = new String[1];
+			possibleResults[nextMatch][0] = poss;
+			results[nextMatch] = poss;
+			scores = calculateScores(results);
+			neighbors = new File(poss+".txt");
+			outputClosestBrackets();
+		}
+		
+	}
+	
+	public static String[] getPossibles(int match)
+	{
+		String[] result;
+		int start;
+		if(!possibleResults[match][0].equals(""))
+			return possibleResults[match];
+		ArrayList<String> temp = new ArrayList<String>();
+		if(match < 108)
+		{
+			start = (match-81)*3;
+		}else if(match < 117)
+		{
+			start = (match-108)*3+81;
+		}else if(match < 120)
+		{
+			start = (match-117)*3+108;
+		}else
+		{
+			start = 117;
+		}
+		for(int i = start; i < start+3; i++)
+		{
+			for(int j = 0; j < possibleResults[i].length; j++)
+			{
+				temp.add(possibleResults[i][j]);
+			}
+		}
+		result = (String[]) temp.toArray();
+		
+		return result;
 	}
 	
 	public static void populateValues()
@@ -77,6 +125,13 @@ public class Guru {
 	{
 		try {
 			FileWriter writer = new FileWriter(neighbors);
+			
+			String winner = neighbors.getName();
+			
+			winner = winner.substring(0,winner.indexOf("."));
+			if(! winner.equals("neighbors"))
+				System.out.println("Elims for a "+winner+" win:");
+			
 			int[][] comparisons;
 			int minscore;
 			String out;
@@ -125,7 +180,10 @@ public class Guru {
 					diffmatches = getDifferentMatches(player,i);
 					out += Arrays.toString(diffmatches)+"\n";
 					if((scores[i]-scores[player]) > comparisons[i][2])
+					{
 						out += "Should be dead\n";
+						System.out.println(entrants[player] + " eliminated by " + entrants[i]);
+					}
 				}
 				writer.write(out);
 			}
@@ -134,7 +192,7 @@ public class Guru {
 			System.out.println("problem with output");
 			System.exit(1);
 		}
-		System.out.println("Done getting differences");
+		//System.out.println("Done getting differences");
 	}
 	
 	public static int[] getDifferentMatches(int first, int second)
