@@ -1,4 +1,5 @@
-<span class="nocode">Menji's closest brackets:
+<span class="nocode">
+Menji's closest brackets:
   Zen - total difference: 24 current deficit: 3 possible gain: 12
     magic number: 9
 	differences: [27, 36, 39, 50, 52, 54, 62, 70, 72, 83, 93, 97, 99, 104]

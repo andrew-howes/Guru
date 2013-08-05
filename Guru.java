@@ -132,7 +132,7 @@ public class Guru {
 			if(! winner.equals("neighbors"))
 				System.out.println("Elims for a "+winner+" win:");
 			
-			writer.write("<span class=\"nocode\">");
+			writer.write("<span class=\"nocode\">\n");
 			
 			int[][] comparisons;
 			int minscore;
