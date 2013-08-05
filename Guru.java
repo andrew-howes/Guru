@@ -132,6 +132,8 @@ public class Guru {
 			if(! winner.equals("neighbors"))
 				System.out.println("Elims for a "+winner+" win:");
 			
+			writer.write("<span class=\"nocode\">");
+			
 			int[][] comparisons;
 			int minscore;
 			String out;
@@ -187,6 +189,7 @@ public class Guru {
 				}
 				writer.write(out);
 			}
+			writer.write("</span>\n");
 			writer.close();
 		} catch (IOException e) {
 			System.out.println("problem with output");

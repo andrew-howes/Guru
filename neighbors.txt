@@ -1,4 +1,4 @@
-Menji's closest brackets:
+<span class="nocode">Menji's closest brackets:
   Zen - total difference: 24 current deficit: 3 possible gain: 12
     magic number: 9
 	differences: [27, 36, 39, 50, 52, 54, 62, 70, 72, 83, 93, 97, 99, 104]
@@ -1194,3 +1194,4 @@ SpikeDragon's closest brackets:
   Sephirot - total difference: 15 current deficit: 1 possible gain: 9
     magic number: 8
 	differences: [5, 30, 54, 56, 62, 72, 89, 92, 99]
+</span>
