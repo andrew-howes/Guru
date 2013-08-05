@@ -171,11 +171,11 @@ public class Guru {
 				writer.write(entrants[player]+"'s closest brackets:\n");
 				for(Integer i : minIDs)
 				{
-					out += entrants[i] + " -";
+					out += "  " + entrants[i] + " -";
 					out += " total difference: " + comparisons[i][1];
 					out += " current deficit: "+ (scores[i]-scores[player]); 
 					out += " possible gain: " + comparisons[i][2] +"\n";
-					out += " magic number: " + (comparisons[i][2]-(scores[i]-scores[player])) + "\n";
+					out += "    magic number: " + (comparisons[i][2]-(scores[i]-scores[player])) + "\n";
 					out += "\tdifferences: ";
 					diffmatches = getDifferentMatches(player,i);
 					out += Arrays.toString(diffmatches)+"\n";
