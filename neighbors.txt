@@ -671,8 +671,8 @@ jacko - total difference: 25 current deficit: 1 possible gain: 16
  magic number: 15
 	differences: [5, 7, 13, 21, 25, 27, 50, 51, 53, 78, 95, 108, 117]
 FAHtastic's closest brackets:
-Nameless - total difference: 37 current deficit: 7 possible gain: 21
- magic number: 14
+Nameless - total difference: 37 current deficit: 7 possible gain: 18
+ magic number: 11
 	differences: [2, 5, 16, 20, 25, 30, 32, 36, 39, 44, 50, 51, 53, 54, 56, 61, 62, 72, 80, 83, 93, 95, 96, 99, 101]
 Nintendoboy's closest brackets:
 gitanil - total difference: 12 current deficit: -1 possible gain: 5
