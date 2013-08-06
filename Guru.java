@@ -133,7 +133,7 @@ public class Guru {
 				System.out.println("Elims for a "+winner+" win:");
 			
 			writer.write("<span class=\"nocode\">\n");
-			
+			writer.write("updated through "+results[nextMatch-1]+"'s win\n");
 			int[][] comparisons;
 			int minscore;
 			String out;
