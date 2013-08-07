@@ -52,11 +52,15 @@ public class Guru {
 	        System.out.println("File Read Error: " + e.getMessage());
 	    }
 		scores = calculateScores(results);
+		
 		outputClosestBrackets();
-		checkNext();
+		if(args.length <= 1)
+			checkNext(1,"");
+		else
+			checkNext(Integer.parseInt(args[1]),"");
 	}
 	
-	public static void checkNext()
+	public static void checkNext(int i, String filename)
 	{
 		String[] possibles = getPossibles(nextMatch);
 		for(String poss : possibles)
@@ -65,9 +69,17 @@ public class Guru {
 			possibleResults[nextMatch][0] = poss;
 			results[nextMatch] = poss;
 			scores = calculateScores(results);
-			neighbors = new File(poss+".txt");
-			outputClosestBrackets();
+			if(i <= 1)
+			{
+				neighbors = new File(filename+poss+".txt");
+				outputClosestBrackets();
+			}else{
+				nextMatch++;
+				checkNext(i-1, filename+poss+"+");
+				nextMatch--;
+			}
 		}
+		possibleResults[nextMatch] = possibles;
 		
 	}
 	
