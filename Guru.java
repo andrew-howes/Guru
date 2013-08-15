@@ -166,10 +166,10 @@ public class Guru {
 					{
 						//if(comparisons[i][1] < minscore)
 						//if((scores[i]-scores[player]) + comparisons[i][2] < minscore)
-						if((scores[player]-scores[i]) + comparisons[i][2] < 5 ||
+						if((scores[player]-scores[i]) + comparisons[i][2] < 6 ||
 								(scores[player]-scores[i]) + comparisons[i][2] < minscore)
 						{
-							if(minscore > 5)
+							if(minscore > 6)
 								minIDs.clear();
 							//minscore = comparisons[i][1];
 							minscore = (scores[player]-scores[i]) + comparisons[i][2];
@@ -196,7 +196,7 @@ public class Guru {
 					if((scores[i]-scores[player]) > comparisons[i][2])
 					{
 						out += "Should be dead\n";
-						System.out.println(entrants[player] + " eliminated by " + entrants[i]);
+						System.out.println(entrants[player] + " by " + entrants[i]);
 					}
 				}
 				writer.write(out);
