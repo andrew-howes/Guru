@@ -1,5 +1,5 @@
 <span class="nocode">
-updated through Zero (MMX)'s win
+updated through Weighted Companion Cube's win
 Menji's closest brackets:
   Zen - total difference: 24 current deficit: 3 possible gain: 9
     magic number: 6
@@ -172,8 +172,8 @@ Shoe's closest brackets:
     magic number: 1
 	differences: [16, 33, 42, 48, 50, 51, 52, 53, 54, 56, 62, 65, 75, 83, 93, 99]
 Seginus's closest brackets:
-  Angelo - total difference: 57 current deficit: 4 possible gain: 22
-    magic number: 18
+  Angelo - total difference: 57 current deficit: 5 possible gain: 21
+    magic number: 16
 	differences: [5, 6, 7, 13, 14, 16, 17, 20, 21, 24, 26, 27, 29, 34, 39, 42, 43, 48, 50, 51, 53, 54, 56, 62, 65, 69, 70, 72, 75, 77, 78, 79, 80, 89, 90, 95, 99, 101, 102, 107, 108]
 WhiteLens's closest brackets:
   Ultimaphazon - total difference: 14 current deficit: -3 possible gain: 4
@@ -250,8 +250,8 @@ Magmortar's closest brackets:
     magic number: 29
 	differences: [5, 16, 27, 33, 42, 51, 53, 54, 61, 72, 78, 83, 84, 87, 92, 97, 99, 105, 114]
 psaltery's closest brackets:
-  ff6man - total difference: 48 current deficit: 11 possible gain: 26
-    magic number: 15
+  ff6man - total difference: 48 current deficit: 12 possible gain: 25
+    magic number: 13
 	differences: [16, 20, 21, 24, 25, 27, 30, 34, 36, 42, 44, 56, 62, 69, 72, 75, 77, 78, 84, 86, 93, 95, 96, 101, 102, 115]
 ChichiriMuyo's closest brackets:
   JeezyMiyagi - total difference: 24 current deficit: -2 possible gain: 10
@@ -407,16 +407,16 @@ PrinceKaro's closest brackets:
     magic number: 8
 	differences: [5, 7, 21, 24, 25, 27, 34, 35, 39, 43, 50, 51, 52, 54, 61, 70, 72, 78, 80, 84, 86, 95, 99, 101, 105]
 Viviff's closest brackets:
-  foxhead - total difference: 28 current deficit: 4 possible gain: 16
-    magic number: 12
+  foxhead - total difference: 28 current deficit: 5 possible gain: 15
+    magic number: 10
 	differences: [5, 7, 16, 21, 36, 56, 62, 70, 75, 77, 93, 101, 105, 110]
 Jmast's closest brackets:
   TheOneAboveAll - total difference: 46 current deficit: 4 possible gain: 12
     magic number: 8
 	differences: [12, 13, 26, 27, 30, 34, 38, 48, 52, 53, 54, 56, 70, 83, 90, 96, 99, 102, 104, 105, 108, 114]
 arkenaga's closest brackets:
-  Kotetsu - total difference: 61 current deficit: 13 possible gain: 33
-    magic number: 20
+  Kotetsu - total difference: 61 current deficit: 14 possible gain: 32
+    magic number: 18
 	differences: [5, 7, 17, 20, 21, 24, 33, 34, 38, 43, 48, 51, 52, 53, 56, 62, 70, 72, 75, 77, 78, 79, 83, 86, 92, 93, 95, 96, 98, 99, 104, 107, 115]
 fpce's closest brackets:
   Colegreen - total difference: 10 current deficit: 1 possible gain: 7
@@ -487,8 +487,8 @@ SgtSphynx's closest brackets:
     magic number: 9
 	differences: [5, 6, 7, 8, 12, 13, 17, 20, 21, 29, 30, 33, 34, 39, 50, 56, 57, 62, 86, 92, 93, 101, 108, 110]
 MZero's closest brackets:
-  TheOlympicHero - total difference: 19 current deficit: -2 possible gain: 10
-    magic number: 12
+  TheOlympicHero - total difference: 19 current deficit: -1 possible gain: 9
+    magic number: 10
 	differences: [21, 27, 29, 51, 52, 56, 62, 69, 75, 77, 92, 95, 97]
 Nick (RPGLord)'s closest brackets:
   Lockes Ragnarok - total difference: 38 current deficit: 2 possible gain: 18
@@ -609,13 +609,16 @@ Heroic Viktor's closest brackets:
     magic number: 6
 	differences: [21, 48, 54, 56, 62, 78, 95, 99]
 frankftw's closest brackets:
-  BakusaiTenketsu - total difference: 63 current deficit: 6 possible gain: 43
+  BakusaiTenketsu - total difference: 63 current deficit: 5 possible gain: 42
     magic number: 37
 	differences: [12, 16, 20, 27, 29, 30, 34, 39, 42, 50, 51, 58, 59, 60, 61, 69, 75, 77, 92, 99, 101, 102, 104, 108, 120]
 agesboy's closest brackets:
-  Sir Chris - total difference: 36 current deficit: 9 possible gain: 14
-    magic number: 5
+  Sir Chris - total difference: 36 current deficit: 10 possible gain: 13
+    magic number: 3
 	differences: [5, 11, 16, 17, 21, 30, 34, 36, 39, 42, 48, 51, 53, 56, 57, 62, 69, 72, 75, 77, 78, 90, 93, 99, 102, 105]
+  Polycosm - total difference: 37 current deficit: 12 possible gain: 16
+    magic number: 4
+	differences: [7, 11, 16, 17, 30, 34, 36, 39, 42, 43, 52, 54, 56, 57, 62, 69, 75, 77, 80, 90, 92, 93, 99, 102, 108]
 SBell's closest brackets:
   Sephirot - total difference: 40 current deficit: 8 possible gain: 21
     magic number: 13
@@ -785,8 +788,8 @@ Midget_Fetish (SSS)'s closest brackets:
     magic number: 9
 	differences: [5, 7, 16, 17, 20, 25, 26, 27, 29, 36, 38, 43, 48, 50, 51, 52, 53, 56, 62, 65, 70, 72, 75, 78, 83, 87, 90, 92, 93, 95, 102, 105, 108]
 Wizardsfan's closest brackets:
-  DpObliVion - total difference: 193 current deficit: 11 possible gain: 147
-    magic number: 136
+  DpObliVion - total difference: 193 current deficit: 12 possible gain: 146
+    magic number: 134
 	differences: [5, 7, 13, 14, 19, 20, 21, 25, 27, 29, 32, 33, 34, 36, 38, 48, 49, 50, 51, 56, 59, 62, 63, 72, 74, 77, 79, 80, 84, 86, 88, 90, 93, 98, 99, 101, 102, 107, 111, 114, 115, 118, 121]
 Nameless's closest brackets:
   SuorGenoveffa - total difference: 27 current deficit: 5 possible gain: 10
@@ -824,14 +827,14 @@ Squirrelgate's closest brackets:
     magic number: 12
 	differences: [29, 36, 43, 52, 53, 62, 70, 84, 89, 92, 93, 99, 105]
 DSRage's closest brackets:
-  SuorGenoveffa - total difference: 28 current deficit: 6 possible gain: 17
-    magic number: 11
+  SuorGenoveffa - total difference: 28 current deficit: 7 possible gain: 16
+    magic number: 9
 	differences: [13, 29, 30, 35, 36, 38, 52, 56, 70, 72, 75, 77, 78, 84, 86, 93, 101, 105]
-  SuperNiceDog - total difference: 27 current deficit: 3 possible gain: 14
-    magic number: 11
+  SuperNiceDog - total difference: 27 current deficit: 4 possible gain: 13
+    magic number: 9
 	differences: [7, 13, 30, 35, 38, 51, 52, 53, 54, 56, 62, 70, 72, 77, 78, 89, 99, 101, 104]
-  Djungelurban - total difference: 32 current deficit: 3 possible gain: 14
-    magic number: 11
+  Djungelurban - total difference: 32 current deficit: 4 possible gain: 13
+    magic number: 9
 	differences: [5, 7, 13, 27, 30, 32, 35, 38, 50, 52, 54, 56, 61, 62, 69, 70, 72, 75, 77, 78, 93, 99, 101, 104]
 FFDragon's closest brackets:
   Kibago - total difference: 43 current deficit: 3 possible gain: 23
@@ -923,8 +926,8 @@ captaincanadian's closest brackets:
     magic number: 8
 	differences: [5, 16, 17, 21, 33, 50, 51, 52, 72, 87, 92, 101, 102, 107]
 LOZLTTP's closest brackets:
-  blazing phoenix - total difference: 71 current deficit: 0 possible gain: 61
-    magic number: 61
+  blazing phoenix - total difference: 71 current deficit: 1 possible gain: 60
+    magic number: 59
 	differences: [5, 17, 21, 30, 36, 39, 56, 62, 70, 75, 77, 86, 92, 99, 102, 108, 116, 117, 120]
 Zen's closest brackets:
   General_Zimbad - total difference: 19 current deficit: -2 possible gain: 6
@@ -1061,8 +1064,8 @@ therobbieg's closest brackets:
     magic number: 6
 	differences: [13, 20, 27, 42, 51, 52, 54, 56, 62, 72, 83, 99, 102]
 azuarc's closest brackets:
-  Dr_Football - total difference: 31 current deficit: 8 possible gain: 18
-    magic number: 10
+  Dr_Football - total difference: 31 current deficit: 9 possible gain: 17
+    magic number: 8
 	differences: [5, 13, 17, 29, 33, 36, 42, 52, 53, 56, 69, 70, 72, 77, 78, 80, 83, 92, 95, 104, 105]
 SSBM_Guy's closest brackets:
   VeryInsane - total difference: 15 current deficit: 3 possible gain: 6
@@ -1132,12 +1135,9 @@ foxhead's closest brackets:
     magic number: 5
 	differences: [7, 25, 56, 72, 92, 95]
 Mattssacre's closest brackets:
-  cody - total difference: 30 current deficit: 2 possible gain: 16
-    magic number: 14
+  cody - total difference: 30 current deficit: 3 possible gain: 15
+    magic number: 12
 	differences: [7, 30, 34, 36, 44, 48, 54, 56, 59, 62, 70, 77, 86, 93, 96, 99, 101, 102]
-  SpeedYoshi - total difference: 27 current deficit: 0 possible gain: 14
-    magic number: 14
-	differences: [24, 32, 44, 50, 51, 59, 62, 69, 70, 75, 77, 78, 86, 96, 99, 101, 102]
 ahirsch's closest brackets:
   jacko - total difference: 10 current deficit: 0 possible gain: 6
     magic number: 6
@@ -1235,12 +1235,12 @@ Moltar's closest brackets:
     magic number: 5
 	differences: [7, 25, 54, 72, 83, 95, 99]
 SpeedYoshi's closest brackets:
-  TheOlympicHero - total difference: 20 current deficit: 3 possible gain: 11
-    magic number: 8
+  TheOlympicHero - total difference: 20 current deficit: 4 possible gain: 10
+    magic number: 6
 	differences: [24, 32, 34, 50, 51, 62, 69, 70, 75, 77, 78, 83, 93, 101]
 Ytterbium's closest brackets:
-  davidponte - total difference: 30 current deficit: 7 possible gain: 19
-    magic number: 12
+  davidponte - total difference: 30 current deficit: 8 possible gain: 18
+    magic number: 10
 	differences: [13, 16, 21, 36, 38, 48, 62, 70, 77, 86, 93, 102, 108, 117]
 GTM's closest brackets:
   SubDeity - total difference: 21 current deficit: 4 possible gain: 9
@@ -1250,8 +1250,8 @@ GTM's closest brackets:
     magic number: 5
 	differences: [5, 17, 29, 52, 54, 56, 62, 89, 99]
 BakusaiTenketsu's closest brackets:
-  Kotetsu - total difference: 43 current deficit: 5 possible gain: 23
-    magic number: 18
+  Kotetsu - total difference: 43 current deficit: 6 possible gain: 22
+    magic number: 16
 	differences: [7, 20, 34, 50, 51, 52, 56, 60, 61, 62, 69, 70, 72, 75, 77, 78, 83, 86, 89, 95, 99, 101, 102, 104, 108]
 meche's closest brackets:
   Alec - total difference: 11 current deficit: 2 possible gain: 3
@@ -1278,11 +1278,11 @@ Dilated Chemist's closest brackets:
     magic number: 10
 	differences: [21, 30, 32, 50, 51, 52, 53, 56, 83, 111]
 RockMFR's closest brackets:
-  Advokaiser - total difference: 50 current deficit: 8 possible gain: 25
-    magic number: 17
+  Advokaiser - total difference: 50 current deficit: 9 possible gain: 24
+    magic number: 15
 	differences: [7, 12, 24, 25, 27, 30, 36, 42, 43, 45, 48, 50, 51, 52, 53, 56, 62, 70, 72, 77, 86, 92, 93, 96, 99, 102, 108, 117]
-  blazing phoenix - total difference: 41 current deficit: 6 possible gain: 23
-    magic number: 17
+  blazing phoenix - total difference: 41 current deficit: 7 possible gain: 22
+    magic number: 15
 	differences: [5, 7, 12, 21, 25, 36, 42, 43, 53, 56, 70, 72, 77, 78, 86, 92, 93, 96, 99, 102, 104, 107, 108]
 ffmasterjose's closest brackets:
   JeezyMiyagi - total difference: 26 current deficit: -1 possible gain: 9
@@ -1320,8 +1320,8 @@ ff6man's closest brackets:
     magic number: 5
 	differences: [30, 56, 62, 84]
 Lord Bob Bree's closest brackets:
-  Team Rocket Elite - total difference: 35 current deficit: 8 possible gain: 16
-    magic number: 8
+  Team Rocket Elite - total difference: 35 current deficit: 9 possible gain: 15
+    magic number: 6
 	differences: [5, 13, 17, 20, 21, 33, 34, 44, 51, 52, 54, 56, 62, 68, 72, 75, 77, 83, 84, 96, 99, 101, 102]
 Yesmar (lolcontests)'s closest brackets:
   Strahax - total difference: 24 current deficit: 2 possible gain: 13
