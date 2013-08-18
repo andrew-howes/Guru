@@ -110,7 +110,7 @@ public class Guru {
 				temp.add(possibleResults[i][j]);
 			}
 		}
-		result = (String[]) temp.toArray();
+		result = temp.toArray(new String[temp.size()]);
 		
 		return result;
 	}
@@ -166,10 +166,10 @@ public class Guru {
 					{
 						//if(comparisons[i][1] < minscore)
 						//if((scores[i]-scores[player]) + comparisons[i][2] < minscore)
-						if((scores[player]-scores[i]) + comparisons[i][2] < 6 ||
+						if((scores[player]-scores[i]) + comparisons[i][2] < 13 ||
 								(scores[player]-scores[i]) + comparisons[i][2] < minscore)
 						{
-							if(minscore > 6)
+							if(minscore > 12)
 								minIDs.clear();
 							//minscore = comparisons[i][1];
 							minscore = (scores[player]-scores[i]) + comparisons[i][2];
@@ -201,6 +201,7 @@ public class Guru {
 				}
 				writer.write(out);
 			}
+			System.out.println();
 			writer.write("</span>\n");
 			writer.close();
 		} catch (IOException e) {
