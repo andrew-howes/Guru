@@ -151,6 +151,7 @@ public class Guru {
 			String out;
 			ArrayList<Integer> minIDs = new ArrayList<Integer>();
 			int[] diffmatches;
+			boolean hasPrinted = false;
 			for(int player = 0; player < entrants.length; player++)
 			{
 				comparisons = new int[entrants.length][3];
@@ -166,13 +167,14 @@ public class Guru {
 					{
 						//if(comparisons[i][1] < minscore)
 						//if((scores[i]-scores[player]) + comparisons[i][2] < minscore)
-						if((scores[player]-scores[i]) + comparisons[i][2] < 13 ||
+						if((comparisons[i][2]-(scores[i]-scores[player])) < 10 ||
 								(scores[player]-scores[i]) + comparisons[i][2] < minscore)
 						{
-							if(minscore > 12)
+							if(minscore > 10)
 								minIDs.clear();
 							//minscore = comparisons[i][1];
-							minscore = (scores[player]-scores[i]) + comparisons[i][2];
+							if(comparisons[i][2]-(scores[i]-scores[player]) < minscore)
+								minscore = (comparisons[i][2]-(scores[i]-scores[player]));
 							minIDs.add(i);
 						//}else if(comparisons[i][1] == minscore)
 						}else if((scores[player]-scores[i]) + comparisons[i][2] == minscore)
@@ -182,23 +184,33 @@ public class Guru {
 					}
 				}
 				out = "";
-				writer.write(entrants[player]+"'s closest brackets:\n");
+				writer.write(entrants[player]+"'s closest brackets: - current score: " 
+								+ scores[player] + "\n");
+				hasPrinted = false;
 				for(Integer i : minIDs)
 				{
-					out += "  " + entrants[i] + " -";
-					out += " total difference: " + comparisons[i][1];
-					out += " current deficit: "+ (scores[i]-scores[player]); 
-					out += " possible gain: " + comparisons[i][2] +"\n";
-					out += "    magic number: " + (comparisons[i][2]-(scores[i]-scores[player])) + "\n";
-					out += "\tdifferences: ";
-					diffmatches = getDifferentMatches(player,i);
-					out += Arrays.toString(diffmatches)+"\n";
-					if((scores[i]-scores[player]) > comparisons[i][2])
+					if((comparisons[i][2]-(scores[i]-scores[player]))<0 || minscore>=0)
 					{
-						out += "Should be dead\n";
-						System.out.println(entrants[player] + " by " + entrants[i]);
+						out += "  " + entrants[i] + " -";
+						out += " total difference: " + comparisons[i][1];
+						out += " current deficit: "+ (scores[i]-scores[player]); 
+						out += " possible gain: " + comparisons[i][2] +"\n";
+						out += "    magic number: " + (comparisons[i][2]-(scores[i]-scores[player])) + "\n";
+						out += "\tdifferences: ";
+						diffmatches = getDifferentMatches(player,i);
+						out += Arrays.toString(diffmatches)+"\n";
+						if((scores[i]-scores[player]) > comparisons[i][2])
+						{
+							out += "Should be dead\n";
+							if(!hasPrinted){
+								System.out.print(entrants[player] + " by " + entrants[i]);
+								hasPrinted = true;
+							}else
+								System.out.print(", " + entrants[i]);
+						}
 					}
 				}
+				if(hasPrinted) System.out.println();
 				writer.write(out);
 			}
 			System.out.println();
